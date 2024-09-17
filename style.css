@@ -1,3 +1,4 @@
+
 body{
     background-color: rgb(30, 35, 39);
     font-family: "Work Sans", sans-serif;
@@ -74,7 +75,7 @@ a:hover{
 }
 
 .aboutgithub_T {
-    font-size: 19.2px;
+    font-size: 19px;
     color: #6d6c6c;
     line-height: 1.6;
 }
@@ -96,7 +97,62 @@ a:hover{
 }
 
 .aboutgit_T {
-    font-size: 19.2px;
+    font-size: 19px;
     color: rgb(202, 201, 201);
     line-height: 1.6;
+}
+
+.differens_Z{
+    font-size: 32px;
+    display: flex;
+    justify-content: center;
+    margin-top: 300px;
+}
+
+.differens-container{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 80px;
+    gap: 250px;
+}
+
+.differens_git_Z{
+    font-size: 32px;
+    text-align: center;
+    color: aliceblue;
+}
+
+.differens_github_Z{
+    font-size: 32px;
+    text-align: center;
+    color: #333;
+}
+
+.differens-container_left{
+    background-color: transparent;
+    border: 2px solid rgb(92, 108, 131);
+    padding: 32px;
+    border-radius: 8px; 
+    text-align: left;
+    width: 10000px;
+}
+
+.differens-container_right{
+    background-color: rgb(196, 202, 211);
+    padding: 32px;
+    border-radius: 8px; 
+    text-align: left;
+    width: 10000px;
+}
+
+.differens_git_T{
+    color: rgb(202, 201, 201);
+    font-size: 19px;
+}   
+
+.differens_github_T{
+    color: #6d6c6c;
+    font-size: 19px;
 }
