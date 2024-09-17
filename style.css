@@ -8,9 +8,9 @@ header{
     background-color: rgb(92, 108, 131);
     border-radius: 10px;
     display: flex;
-    width: 1900px;
+    width: 1870px;
     position: fixed;
-    margin-left: 10px;
+    margin-left: 15px;
     top: 10px; 
     left: 0; 
 }
@@ -58,8 +58,30 @@ a:hover{
     color: black;
 }
 
-.aboutgit {
+.aboutgithub {
     background-color: rgb(196, 202, 211);
+    padding: 32px;
+    border-radius: 8px; 
+    max-width: 800px;
+    margin: 32px auto;
+    text-align: center;
+}
+
+.aboutgithub_Z {
+    font-size: 32px;
+    color: #333;
+    margin-bottom: 16px;
+}
+
+.aboutgithub_T {
+    font-size: 19.2px;
+    color: #6d6c6c;
+    line-height: 1.6;
+}
+
+.aboutgit {
+    background-color: transparent;
+    border: 2px solid rgb(92, 108, 131);
     padding: 32px;
     border-radius: 8px; 
     max-width: 800px;
@@ -69,12 +91,12 @@ a:hover{
 
 .aboutgit_Z {
     font-size: 32px;
-    color: #333;
+    color:aliceblue;
     margin-bottom: 16px;
 }
 
 .aboutgit_T {
     font-size: 19.2px;
-    color: #6d6c6c;
+    color: rgb(202, 201, 201);
     line-height: 1.6;
 }
