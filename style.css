@@ -1,0 +1,23 @@
+body{
+    background-color: rgb(67, 71, 75);
+}
+
+header{
+    background-color: rgb(92, 108, 131);
+    border-radius: 10px;
+    display: flex;
+    width: 1900px;
+}
+
+svg{
+    color: rgb(34, 53, 83);
+    margin-top: 18px;
+    display: inline-block;
+    padding: 20px;
+    border-radius: 5px;
+    transition: transform 0.2s ease-in-out;
+}
+
+svg:hover{
+transform: translateY(-10px)
+}
