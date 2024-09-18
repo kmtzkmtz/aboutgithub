@@ -213,6 +213,11 @@ a:hover{
     font-size: 32px;
     text-align: center;
     color: #333;
+    transition: 0.3s;
+}
+
+.projects_Z:hover{
+    color: #6d6c6c;;
 }
 
 .projects_T{
@@ -227,4 +232,46 @@ a:hover{
 .projects.show .projects_T {
     max-height: 200px; /* Максимальная высота при показе */
     opacity: 1; /* Полная прозрачность */
+}
+
+.learn{
+    text-align: center;
+    margin-top: 320px;
+    margin-right: 200px;
+    background-color: transparent;
+    border: 2px solid rgb(92, 108, 131);
+    border-radius: 8px; 
+    width: 950px;
+    margin-right: 820px;
+}
+
+.support{
+    text-align: center;
+    margin-top: 100px;
+    margin-right: 200px;
+    background-color: transparent;
+    border: 2px solid rgb(92, 108, 131);
+    border-radius: 8px; 
+    width: 950px;
+    margin-left: 900px;
+}
+
+.learn_Z{
+    text-align: center;
+    font-size: 32px;
+    color: rgb(202, 201, 201);
+}
+
+.learn_T{
+    font-size: 19px;
+}
+
+.support_Z{
+    text-align: center;
+    font-size: 32px;
+    color: rgb(202, 201, 201);
+}
+
+.support_T{
+    font-size: 19px;
 }
