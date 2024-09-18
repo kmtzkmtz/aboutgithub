@@ -70,6 +70,7 @@
                 </div>
             </div>
         </section>
+
         <section class="function" onclick="toggleText(this)">
             <h2 class="function_Z">Основные функции GitHub</h2>
             <p class="function_T"> <b>· Репозитории:</b> Основной элемент, где хранится код проекта, включая все его версии.
@@ -77,7 +78,20 @@
                 <br><b>· Коммиты:</b> Сохраненные изменения в репозитории с комментарием, описывающим эти изменения.
                 <br><b>· Пулл-реквесты:</b> Предложения внести изменения из одной ветки в другую, с возможностью обсуждения и рецензирования.</p>
         </section>
+
+        <section class="projects" onclick="toggleText(this)">
+            <h2 class="projects_Z">Управление проектами</h2>
+            <p class="projects_T">
+                <b>· Issues:</b> Удобный инструмент для трекинга ошибок, задач и предложений по улучшению проекта.
+                <br><b>· Wiki:</b> Позволяет создавать документацию по проекту прямо в GitHub.
+                <br><b>· Projects:</b> Помогает организовывать и визуализировать задачи с помощью Kanban-досок.
+            </p>
+        </section>
     </main>
+    
+    
+    
+    
     <script>
         function toggleText(section) {
             section.classList.toggle('show'); // Переключаем класс 'show'
