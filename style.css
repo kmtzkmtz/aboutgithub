@@ -20,7 +20,7 @@ header{
     left: 0; 
 }
 
-svg{
+.gitlogo{
     color: rgb(196, 202, 211);
     display: inline-block;
     padding: 20px;
@@ -28,7 +28,7 @@ svg{
     transition: transform 0.1s ease-in-out;
 }
 
-svg:hover{
+.gitlogo:hover{
 transform: translateY(-10px);
 color: rgb(128, 128, 128);
 }
@@ -291,3 +291,34 @@ section{
 .support_T{
     font-size: 19px;
 }
+
+footer{
+    margin: 0;
+    margin-top: 200px;
+    height: 150px;
+    background-color: rgb(92, 108, 131);
+    width: 100%;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.dimon{
+    display: flex;
+    justify-content: center;
+}
+
+.dmitry{
+    margin-top: 75px;
+}
+
+.yeah{
+    display: flex;
+    justify-content: center;
+}
+
+.hell{
+    margin-left: 1000px;
+    margin-top: 75px;
+}
+
