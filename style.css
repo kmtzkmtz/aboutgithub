@@ -88,6 +88,7 @@ a:hover{
     max-width: 800px;
     margin: 32px auto;
     text-align: center;
+    margin-top: 200px;
 }
 
 .aboutgit_Z {
@@ -155,4 +156,41 @@ a:hover{
 .differens_github_T{
     color: #6d6c6c;
     font-size: 19px;
+}
+
+.function{
+    margin: 0;
+    text-align: center;
+    margin-top: 280px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    background-color: transparent;
+    border: 2px solid rgb(92, 108, 131);
+    border-radius: 8px; 
+    width: 1000px;
+    margin-left: 450px;
+}
+
+.function_Z{
+    font-size: 32px;
+    color: aliceblue;
+    transition: 0.3s;
+}
+
+.function_Z:hover{
+    color: rgb(92, 108, 131);
+}
+
+.function_T{
+    max-height: 0; /* Скрываем текст по умолчанию */
+    overflow: hidden; /* Прячет переполнение */
+    opacity: 0; /* Начальная прозрачность */
+    transition: max-height 0.5s ease-out, opacity 0.5s ease-out;
+    color: rgb(202, 201, 201);
+    font-size: 19px;
+}
+
+.function.show .function_T {
+    max-height: 200px; /* Максимальная высота при показе */
+    opacity: 1; /* Полная прозрачность */
 }
